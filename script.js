@@ -6,7 +6,7 @@ window.addEventListener("load", function() {
        let rocketType = document.querySelector("select[name=rocketType]")
        //why does this work without the Number() declaration? Shouldn't it be passing as a string?
        //WHY DOES THIS NOT WORK FOR NUMBER??? THAT"S ASS BACKWARDS. I can get why it would work as a str, but it should ALSO work as a number . . . .
-       let boosterCount = Number(document.querySelector("input[name=boosterCount]"))
+       let boosterCount = document.querySelector("input[name=boosterCount]")
        let windRating = Number(document.querySelector("input[name=windRating]"))
        let productionServers = document.querySelector("input[name=productionServers]") 
 
